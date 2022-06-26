@@ -1,0 +1,78 @@
+.car {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 5px 5px 30px 5px 5px;
+    grid-template-rows: 30px 10px 15px 15px 5px 25px;
+    box-shadow: 0px 1px 10px 1px black;
+    perspective: 1000px;    
+}
+
+
+@import './__door/car__door.scss';
+@import './__door/_front/car__door_front_left.scss';
+@import './__door/_front/car__door_front_left_opened.scss';
+@import './__door/_front/car__door_front_right.scss';
+@import './__door/_front/car__door_front_right_opened.scss';
+@import './__door/_back/car__door_back_left.scss';
+@import './__door/_back/car__door_back_left_opened.scss';
+@import './__door/_back/car__door_back_right.scss';
+@import './__door/_back/car__door_back_right_opened.scss';
+
+@import './__wheel/car__wheel.scss';
+@import './__wheel/_front/car__wheel_front_left.scss';
+@import './__wheel/_front/car__wheel_front_right.scss';
+@import './__wheel/_back/car__wheel_back_left.scss';
+@import './__wheel/_back/car__wheel_back_right.scss';
+
+@import './__light/car__light.scss';
+@import './__light/_turn/car__light_turn.scss';
+@import './__light/_turn/_front/car__light_turn_front_left.scss';
+@import './__light/_turn/_front/car__light_turn_front_right.scss';
+@import './__light/_turn/_back/car__light_turn_back_left.scss';
+@import './__light/_turn/_back/car__light_turn_back_right.scss';
+@import './__light/_head/car__light_head_left.scss';
+@import './__light/_head/car__light_head_right.scss';
+@import './__light/_stop/car__light_stop_left.scss';
+@import './__light/_stop/car__light_stop_right.scss';
+
+@import './__hood/car__hood.scss';
+@import './__hood/car__hood_opened.scss';
+@import './car__engine.scss';
+
+@import './car__inner.scss';
+@import './car__turning-wheel.scss';
+@import './car__gear.scss';
+@import './__seat/car__seat.scss';
+@import './__seat/car__seat_left.scss';
+@import './__seat/car__seat_right.scss';
+@import './__seat/car__seat_back.scss';
+
+@import './__trunk/car__trunk.scss';
+@import './__trunk/car__trunk_bottom.scss';
+@import './__trunk/car__trunk_opened.scss';
+
+@import './__roof/car__roof.scss';
+@import './__roof/car__roof_left.scss';
+@import './__roof/car__roof_right.scss';
+@import './__roof/car__roof_mid.scss';
+
+@import './__bumper/car__bumper.scss';
+@import './__bumper/car__bumper_front.scss';
+@import './__bumper/car__bumper_back.scss';
+
+@import './__wing/car__wing.scss';
+@import './__wing/__front/car__wing_front_left.scss';
+@import './__wing/__front/car__wing_front_right.scss';
+@import './__wing/__back/car__wing_back_left.scss';
+@import './__wing/__back/car__wing_back_right.scss';
+
+@import './__window/car__window.scss';
+@import './__window/car__window_front.scss';
+@import './__window/car__window_back.scss';
+
+@import './__tank/car__tank.scss';
+
+@import './__exhaust/car__exhaust.scss';

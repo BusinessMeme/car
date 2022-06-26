@@ -1,0 +1,11 @@
+.header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: $main-color;
+    z-index: 1000;
+}
+
+@import './header__title.scss';

@@ -1,0 +1,18 @@
+.instruction {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100000;
+}
+
+.instruction_active {
+    left: 0;
+}
+
+@import './list__item.scss';

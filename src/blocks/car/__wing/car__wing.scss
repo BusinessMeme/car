@@ -1,0 +1,7 @@
+.car__wing {
+    width: 100%;
+    background-color: red;
+    transition: all 0.6s;
+    @include hover_anim;
+    z-index: 10;
+}

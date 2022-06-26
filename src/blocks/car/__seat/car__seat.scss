@@ -1,0 +1,18 @@
+.car__seat {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background-color: rgb(160, 41, 41);
+    &:before {
+        content: '';
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        background-color: rgb(85, 29, 29);
+    }
+}

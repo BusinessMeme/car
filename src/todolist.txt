@@ -1,0 +1,3 @@
+1. start to make control
+2. add animations
+3. make indicator showing gas lvl

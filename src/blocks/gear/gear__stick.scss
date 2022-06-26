@@ -1,0 +1,12 @@
+.gear__stick {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(0px);
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 1px inset rgb(122, 121, 121), 0 2px 5px 2px black;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.6s;
+}

@@ -1,0 +1,15 @@
+.car__door_front_left {
+    position: relative;
+    grid-column: 1;
+    grid-row: 2 / 4;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 7px;
+        height: 2px;
+        background-color: red;
+        top: 6px;
+        left: -6px;
+        transform: rotate(-45deg);
+    }
+}

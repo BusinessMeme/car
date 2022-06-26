@@ -1,0 +1,47 @@
+const gearItem = document.querySelectorAll('.gear__item');
+const gearStick = document.querySelector('.gear__stick');
+const gasLvl = document.querySelector('.gas__lvl');
+const speed = document.querySelector('.speed');
+const carKey = document.querySelector('.key');
+
+let gears = [0, -17, -34, -51, -68, -85];
+
+let gear = 1;
+
+window.addEventListener('keyup', e => {
+    if(e.code == 'KeyQ') {
+        if(gear < 5 && gear != 1){
+            gear++;        
+        } else if (gear == 1 && power >= 0) {
+            gear++;
+        }
+    }
+    if(e.code == 'KeyZ') {
+        if(gear > 0){
+            gear--;
+        } else if(gear == 1 && power == 0){
+            gear--;
+        }
+    }
+});
+
+gearItem.forEach((el, i) => {
+    el.addEventListener('click', () => {
+        gear = (gears.length - 1) - i;
+    });
+});
+
+carKey.addEventListener('click', engineStart);
+
+function engineStart(engine, gas) {
+    carKey.classList.toggle('key_active');
+    if(gas > 0) {
+            carEngine.classList.toggle('car__engine_active');
+            carExhaust.classList.toggle('car__exhaust_active');
+        if(engine) {
+            engine = false;
+        } else {
+            engine = true;
+        }
+    }        
+}

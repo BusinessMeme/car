@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    position: relative;
+}
+/*Blocks*/
+@import '../blocks/header/header.scss';
+@import '../blocks/world/world.scss';
+@import '../blocks/grass/grass.scss';
+@import '../blocks/road/road.scss';
+@import '../blocks/car/car.scss';
+@import '../blocks/gear/gear.scss';
+@import '../blocks/gas/gas.scss';
+@import '../blocks/dashboard/dashboard.scss';
+@import '../blocks/speed/speed.scss';
+@import '../blocks/key/key.scss';
+@import '../blocks/turn/turn.scss';
+@import '../blocks/instruction/instruction.scss';
